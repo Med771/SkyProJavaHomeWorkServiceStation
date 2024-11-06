@@ -1,5 +1,5 @@
 public abstract sealed class Transport
-        implements TransportMethods
+        implements EngineTransportsMethods
         permits Car, Bicycle, Truck {
     // Init
     private final String modelName;
@@ -18,5 +18,10 @@ public abstract sealed class Transport
 
     public int getWheelsCount() {
         return wheelsCount;
+    }
+
+    // Update method
+    public void updateTyre() {
+        System.out.println("Меняем покрышку");
     }
 }
