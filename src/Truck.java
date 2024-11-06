@@ -1,4 +1,6 @@
-public final class Truck extends Transport {
+public final class Truck
+        extends Transport
+        implements EngineTransportsMethods{
     // Constructor
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

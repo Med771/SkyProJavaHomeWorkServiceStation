@@ -1,5 +1,4 @@
 public abstract sealed class Transport
-        implements EngineTransportsMethods
         permits Car, Bicycle, Truck {
     // Init
     private final String modelName;
