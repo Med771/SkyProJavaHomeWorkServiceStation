@@ -12,7 +12,6 @@ public abstract sealed class Transport
     }
 
     // Get
-
     public String getModelName() {
         return modelName;
     }

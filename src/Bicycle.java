@@ -3,4 +3,11 @@ public final class Bicycle extends Transport {
     public Bicycle(String nameModel, int wheelsCount) {
         super(nameModel, wheelsCount);
     }
+
+    @Override
+    public void updateTyre() {}
+    @Override
+    public void checkTrailer() {
+
+    }
 }
