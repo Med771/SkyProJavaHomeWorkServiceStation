@@ -18,9 +18,4 @@ public abstract sealed class Transport
     public int getWheelsCount() {
         return wheelsCount;
     }
-
-    // Update method
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
 }
